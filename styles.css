@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: -20px;
+  text-align: center;
+}
+body {
+  border: 1px;
+  background-color: beige;
+  min-height: 100vh;
+  margin: 10vh;
+  background-image: linear-gradient(
+      180deg,
+      #000000 0%,
+      #00000070 20%,
+      #00000070 100%
+    ),
+    url("https://th.bing.com/th/id/R.a71beb0a534ac93fd1f0e5f5ec8fec03?rik=y88V2vDhuchrJQ&riu=http%3a%2f%2fstadiums.at.ua%2f_nw%2f397%2f44598870.jpg&ehk=wiWEWafqY%2fRIs7GfTjZW5p%2ffyaKITiFQc5CZH7vdcNg%3d&risl=&pid=ImgRaw&r=0");
+}
+.container {
+  background-color: rgb(53, 48, 48);
+  position: absolute;
+  inset: 120px;
+  display: flex;
+  border-radius: 10px;
+  width: 430px;
+  height: 650px;
+  padding-block: 100px;
+  padding-inline: 100px;
+  margin: 10px auto;
+  box-shadow: 6px 9px 27px 0px rgba(255, 255, 255, 0.75);
+  text-align: center;
+}
+
+.container2 {
+  background-color: rgb(76, 82, 82);
+  position: absolute;
+  inset: 570px 10px 10px;
+  display: flex;
+  border-radius: 10px;
+  text-align: center;
+}
+.item {
+  position: absolute;
+  padding: 8px;
+  text-align: center;
+  background-color: rgba(255, 251, 251, 0.401);
+  inset: 10px 10px;
+  border-radius: 10px;
+  height: 550px;
+}
+img {
+  border-radius: 10px;
+  height: 100%;
+  background-size: cover;
+}
+
+.text {
+  /* display: block; */
+  color: rgb(240, 240, 240);
+
+  width: 1000px;
+}
+
+.Coc {
+  color: rgb(55, 13, 13);
+  font-weight: bold;
+  font-size: 40px;
+  position: relative;
+  left: 360px;
+  bottom: 640px;
+  background-color: rgb(255, 255, 255);
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 5px 10px rgb(248, 244, 244);
+}
+.Cnd {
+  color: red;
+  font-weight: bold;
+  font-size: 50px;
+  position: relative;
+  right: 30px;
+  bottom: 580px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 5px 8px rgb(195, 47, 47);
+}
+/* .sco {
+  position: absolute;
+  top: 0px;
+  width: 413px;
+  height: 550px;
+  right: 0%;
+  z-index: -1;
+} */
